@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    font-size: 14px;
+    border: border-box;
+}
+header {
+    position: sticky; 
+    top: 0;          
+    z-index: 100;    
+}
+.navbar {
+    height:30px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content:space-evenly;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+.logo {
+    margin-right:1px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 99px;
+    cursor: pointer;
+}
+.nav-address {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.add-first {
+    color: #f2efef;
+    font-size: 1rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: flex-end;
+}
+
+.fa-location-dot {
+    color: #f7f1f1;
+    font-size: 1rem;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.add-sec {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.nav-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 620px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-left: 20px; 
+}
+
+
+.nav-search:hover {
+    border: 3px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #c9c9c9;
+    color: #555;
+}
+
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+.search-icon {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f3a847;
+    font-size: 2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.span{
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.nav-second{
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.return-border{
+    cursor: pointer;
+}
+.nav-returns span{
+    height: 14px;
+    width: 58.95px;
+    cursor: pointer;
+}
+.nav-third{
+     height: 14px;
+    width: 60px;
+    font-weight: bold; 
+    cursor: pointer;  
+}
+.nav-cart {
+    display: flex;
+    align-items: center; 
+    gap: 4px;   
+    font-size: 40px; 
+    cursor: pointer;
+}
+.nav-cart-text {
+    font-weight: 700; 
+    align-items: center;
+    margin-top: 10px; 
+    font-size: 19px;
+}
+.panel{
+    height: 45px;
+    background-color: #222f3d;
+    display: flex;
+    color: rgb(247, 244, 244);
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0;
+}
+
+.hero-section{
+    background-image: url("homemain.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem; 
+    width:  95%;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.hero-msg a {
+    color: #007185;
+}
+.hero-msg a:hover {
+    background-color: #f6f1f1; 
+    cursor: pointer;           
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/* box1 */
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box-img{
+    height: 300px;
+    background-image:contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+     background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.box-content h1{
+    cursor: pointer;
+    font-size: 21px;
+}
+.box-content p{
+    Cursor: pointer;
+    color: rgb(33, 98, 161)
+}
+/* box2 */
+.box2{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box2-img{
+    height: 300px;
+    background-image:contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box2-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.box2-content h1{
+    font-size: 21px;
+}
+.box2-content p{
+    color: rgb(33, 98, 161)
+}
+/* box3 */
+.box3{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box3-img{
+    height: 300px;
+    background-image:contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box3-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.box3-content h1{
+    font-size: 21px;
+}
+.box3-content p{
+    color: rgb(33, 98, 161)
+}
+/* box4 */
+.box4{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box4-img{
+     height: 300px;
+    background-size: contain;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box4-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.box4-content h1{
+    font-size: 21px;
+}
+.box4-content p{
+    color: rgb(33, 98, 161)
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    display: inline-block; /* so they stay in one row */
+    vertical-align: top;
+}
+
+.box-img {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content h1 {
+    font-size: 21px;
+}
+
+.box-content p {
+    color: rgb(33, 98, 161);
+}
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel {
+    background-color: #37475A; 
+    transition: background-color 0.3s ease; 
+    text-align: center;
+    align-items:center;
+    padding-right: 19px;
+}
+
+
+.foot-panel:hover {
+    background-color: #485769; 
+    cursor: pointer;           
+}
+
+.foot-panel a {
+    display: block; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.foot-panel2 ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.foot-panel2 ul p {
+    Cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.foot-panel2 ul a {
+    Cursor: pointer;
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size:15px;
+    
+}
+
+.foot-panel2 ul a:hover {
+    text-decoration: underline;
+    Cursor: pointer;
+}
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 0;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px; 
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.7rem;
+    height: 100px;
+    display: flex;             
+    flex-direction: column;     
+    align-items: center;        
+    justify-content: center;   
+}
+
+.pages {
+    padding-top: 25px;
+    Cursor: pointer;
+}
+
+.copyright { 
+    padding-top: 5px;
+    Cursor: pointer;
+}
+
+
+
